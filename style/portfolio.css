@@ -1,5 +1,6 @@
 nav {
     display: flex;
+    color: indigo;
 }
 body {
     font-family: 'Open Sans', sans-serif;
