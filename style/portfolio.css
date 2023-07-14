@@ -3,6 +3,7 @@ nav {
     color: indigo;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -33,4 +34,27 @@ nav li {
     line-height: normal; */
     background: #FD6E0A;
     border: none;
+}
+.btn-secondary{
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    background-color: #FFF8F3;
+    text-decoration-color: #FD6E0A;
+}
+.header {
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.banner .profile-pic{
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+}
+.developer{
+    background: #FFF8F3;
+    
+    /* padding: 38px 1200px 30px 25px; */
 }
