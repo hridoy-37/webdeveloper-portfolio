@@ -3,5 +3,17 @@ nav {
     color: indigo;
 }
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif; font-size: 40px;
+}
+.nav-title{
+    color: blueviolet;
+}
+span {
+    color: orang;
+}
+.text-primary{
+    color: orangered;
+}
+nav>ul {
+    display: flex;
 }
