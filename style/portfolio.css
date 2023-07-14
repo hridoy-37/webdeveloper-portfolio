@@ -84,3 +84,24 @@ nav li {
     
     /* padding: 38px 1200px 30px 25px; */
 }
+
+/* styles for ABOUT section */
+.about{
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
+}
+.sec-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    /* padding: 131px 486px 371px 485px; */
+}
+.sec-content{
+    color:  #757575;
+text-align: center;
+font-size: 18px;
+/* padding: 209px 157px 221px 156px; */
+}
