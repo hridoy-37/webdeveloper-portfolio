@@ -34,6 +34,7 @@ nav li {
     line-height: normal; */
     background: #FD6E0A;
     border: none;
+    margin-top: 10px;
 }
 .btn-secondary{
     border-radius: 5px;
@@ -43,15 +44,40 @@ nav li {
 }
 .header {
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    justify-content: space-between;
+}
+.banner-greetngs{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.banner-title{
+    color: var(--dark-01, #181818);
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.banner-content{
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 166.667%;
+    margin-bottom: 25px;
+    max-width: 400px;
+    max-height: 30px;
 }
 .banner .profile-pic{
-    width: 584px;
+    /* width: 584px;
     height: 676px;
-    flex-shrink: 0;
+    flex-shrink: 0; */
 }
 .developer{
     background: #FFF8F3;
