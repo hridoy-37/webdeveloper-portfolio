@@ -114,3 +114,13 @@ nav li {
 .about-info{
     text-align: center;
 }
+.section-description {
+    text-align: center;
+    justify-content: space-around;
+}
+.skill-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 50px auto;
+}
