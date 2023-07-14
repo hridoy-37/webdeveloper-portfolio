@@ -101,7 +101,16 @@ nav li {
 }
 .sec-content{
     color:  #757575;
-text-align: center;
-font-size: 18px;
-/* padding: 209px 157px 221px 156px; */
+    text-align: center;
+    font-size: 18px;
+    /* padding: 209px 157px 221px 156px; */
+}
+.about-info-container{
+    display: flex;
+    margin-top: 30px 50px;
+    text-align: center;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
