@@ -158,6 +158,8 @@ main section {
 /* Footer STYLE  */
 footer {
     display: flex;
+    text-align: center;
+    /* gap: 50%; */
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px, 200px;
@@ -165,3 +167,20 @@ footer {
 /* .sec-tite{
     display: flex;
 } */
+.footer-column {
+    width: 50%;
+}
+.social-linksocial-link {
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="mail"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px, 35px;
+    color: #757575;
+    font-size: 16px;
+    border: 0;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    width: 100%;
+}
